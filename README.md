@@ -1,4 +1,4 @@
-# Adding new user/client to the environment
+# Adding new user/client to the environment.
 
 ## Overview
 A new user has been added to Mahogany Corp, his name is Vic Tim, he will work alonside ParmaLat.
@@ -38,7 +38,9 @@ User Created!
 
 ## Troubleshooting 
  * As this is a virtualized lab, hosted in VMWware Workstation Pro, in order for the DHCP server to work, I had to fix the rogue DHCP server error. The solve this problem, we have to "Virtual Netowrk Editor" on VMWare and desactivate "Use local DHCP service to distribute IP addresses to VMs" option. And also make sure that all VM's are in the same network interface.
-   
+
+## Next Steps
+* It is not a mistake that we are using a Win 7 machine, this is because we will run some funny security tests on this machine 😎
 
 
 
