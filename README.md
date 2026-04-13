@@ -36,6 +36,9 @@ User Created!
 ### Network configuration after joining domain, showing DNS Prefix, DHCP Server and being assigned IP from DHCP pool.
 ![FinalNetworkConfig](screenshots/10.png)
 
+### And of course, we added Password Policy to our users so the password expire every 45 days.
+![GPO](screenshots/11.png)
+
 ## Troubleshooting 
  * As this is a virtualized lab, hosted in VMWware Workstation Pro, in order for the DHCP server to work, I had to fix the rogue DHCP server error. The solve this problem, we have to "Virtual Netowrk Editor" on VMWare and desactivate "Use local DHCP service to distribute IP addresses to VMs" option. And also make sure that all VM's are in the same network interface.
 
